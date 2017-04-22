@@ -222,7 +222,7 @@ body.rtl .discard-error-message {
 }
 
 #logo {
-	width:89px;
+	width:101px;
 	height:34px;
 	display:block;
 	position:fixed;
@@ -780,12 +780,14 @@ body.rtl .front-welcome-text {
 	opacity:0.8;
 	}
 
-.front-welcome-text #federated-tooltip {
+.front-welcome-text #federated-tooltip,
+.front-welcome-text #lgbtpzn-tooltip {
 	text-decoration:underline;
 	position:relative;
 	cursor:help;
 	}
-#federated-tooltip #what-is-federation {
+#federated-tooltip #what-is-federation,
+#lgbtpzn-tooltip #what-is-lgbtpzn {
 	background-color: rgba(255, 255, 255, 0.95);
     border: 1px solid #333333;
     border-radius: 6px 6px 6px 6px;
@@ -801,6 +803,9 @@ body.rtl .front-welcome-text {
     width: 300px;
     z-index:10000;
 	text-decoration:none;
+	}
+#lgbtpzn-tooltip #what-is-lgbtpzn {
+	width: 610px;
 	}
 
 #login-register-container {
@@ -1268,7 +1273,7 @@ button#submit-login:hover {
 #page-container {
 	width:890px;
 	padding:17px 14px 0 14px;
-	background-color:rgba(0,0,0,0.2);
+	background-color:rgba(0,0,0,0.7);
 	margin-left:-459px;
 	opacity:0;
 	}
@@ -5712,8 +5717,9 @@ body.rtl #feed-header-inner h2  {
 	font-family: Tahoma,Arial,sans-serif !important;
 	}
 
-
-
+.hidden-pc {
+	display: none;
+	}
 
 /* =Responsive Structure
 ----------------------------------------------- */
@@ -6459,6 +6465,22 @@ body.rtl #feed-header-inner h2  {
 		transition: none !important;
 		}
 
+	.front-welcome-text,
+	.front-welcome-text p {
+		font-size: small;
+		}
 
+	.front-welcome-text {
+		padding: 1.2em;
+		}
+
+	.front-welcome-text p {
+		line-height: 1.2em;
+		}
+
+	div.visible-sp {
+		display: block;
+		}
 
 	}
+
