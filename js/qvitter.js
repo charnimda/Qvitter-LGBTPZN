@@ -1003,19 +1003,19 @@ function proceedToSetLanguageAndLogin(data){
 
 	// set some static strings
 	if(window.customWelcomeText !== false && typeof window.customWelcomeText[window.selectedLanguage] != 'undefined') {
-		$('.front-welcome-text').html(window.customWelcomeText[window.selectedLanguage]);
+		$('.front-welcome-text:first').html(window.customWelcomeText[window.selectedLanguage]);
 
 		// collapse long welcome texts and add expand button
 		if($('.front-welcome-text').outerHeight()>250) {
-			$('.front-welcome-text').css('height','240px');
-			$('.front-welcome-text').css('overflow', 'hidden');
-			$('.front-welcome-text').append('<div class="show-full-welcome-text"></div>');
+			$('.front-welcome-text:first').css('height','240px');
+			$('.front-welcome-text:first').css('overflow', 'hidden');
+			$('.front-welcome-text:first').append('<div class="show-full-welcome-text"></div>');
 			}
 		}
 	else {
-		$('.front-welcome-text').html('<h1>' + window.sL.welcomeHeading +  '</h1>');
+		$('.front-welcome-text:first').html('<h1>' + window.sL.welcomeHeading +  '</h1>');
 		if(window.enableWelcomeText) {
-			$('.front-welcome-text').append(window.sL.welcomeText);
+			$('.front-welcome-text:first').append(window.sL.welcomeText);
 			}
 		}
 

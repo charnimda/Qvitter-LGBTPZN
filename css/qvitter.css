@@ -5712,8 +5712,9 @@ body.rtl #feed-header-inner h2  {
 	font-family: Tahoma,Arial,sans-serif !important;
 	}
 
-
-
+.hidden-pc {
+	display: none;
+	}
 
 /* =Responsive Structure
 ----------------------------------------------- */
@@ -6459,6 +6460,22 @@ body.rtl #feed-header-inner h2  {
 		transition: none !important;
 		}
 
+	.front-welcome-text,
+	.front-welcome-text p {
+		font-size: small;
+		}
 
+	.front-welcome-text {
+		padding: 1.2em;
+		}
+
+	.front-welcome-text p {
+		line-height: 1.2em;
+		}
+
+	div.visible-sp {
+		display: block;
+		}
 
 	}
+
