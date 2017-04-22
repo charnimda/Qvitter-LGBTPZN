@@ -98,7 +98,7 @@
 	"signUpEmail": "メールアドレス",
 	"signUpButtonText": "{site-title}にサインアップする",
 	"welcomeHeading": "Hello, Queers! LGBTPZNソーシャルへようこそ。",
-	"welcomeText": "LGBTPZNソーシャルは「包摂」「連帯」をモットーとして、定型化されたステレオタイプな性規範からの離脱と、多様なセクシュアリティの相互理解を目指しています。",
+	"welcomeText": "<span id=\"lgbtpzn-tooltip\"><div id=\"what-is-lgbtpzn\">LGBTPZNは、かつては、7種類の多様な性――レズビアン、ゲイ、バイセクシャル、トランスジェンダー、ペドフィリア、ズーフィリア、ネクロフィリア――のアクロニムでした。現在は、LGBTPZNはアクロニムではなく、多様な性を象徴するシンボルであると考えられています。<a href=\"http://lgbtpzn.org\">さらに詳しく</a></div>LGBTPZN</span>ソーシャルは「包摂」「連帯」をモットーとして、定型化されたステレオタイプな性規範からの離脱と、多様なセクシュアリティの相互理解を目指しています。",
 	"registerNickname": "ニックネーム",
 	"registerHomepage": "ホームページ",
 	"registerBio": "自己紹介",

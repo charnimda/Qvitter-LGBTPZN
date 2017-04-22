@@ -626,6 +626,16 @@ $('body').on('mouseleave','#what-is-federation',function(){
 
 
 
+// Tooltip to show what LGBTPZN means
+$('body').on('mouseenter','#lgbtpzn-tooltip',function(){
+	$('#what-is-lgbtpzn').fadeIn(100);
+	});
+$('body').on('mouseleave','#what-is-lgbtpzn',function(){
+	$('#what-is-lgbtpzn').fadeOut(100);
+	});
+
+
+
 /* ·
    ·
    ·   Scroll to top when clicking top bar
